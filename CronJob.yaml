@@ -15,5 +15,4 @@ spec:
             - /bin/sh
             - -c
             - uname
-            activeDeadlineSeconds: 10
           restartPolicy: OnFailure
