@@ -1,8 +1,8 @@
 apiVersion: v1 
 kind: Pod
 metadata:
-  namespace: test
-  name: test
+  namespace: test1
+  name: test1
 spec:
   containers: 
   - name: busybox
