@@ -6,6 +6,7 @@ spec:
   schedule: "*/1 * * * *"
   jobTemplate:
     spec:
+      activeDeadlineSeconds: 10
       template:
         spec:
           containers:
@@ -15,5 +16,4 @@ spec:
             - /bin/sh
             - -c
             - uname
-            activeDeadlineSeconds: 10
           restartPolicy: OnFailure
